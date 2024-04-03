@@ -11,3 +11,7 @@ updates:
       interval: 'daily'
     allow:
       - dependency-type: "all"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
